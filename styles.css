@@ -1,0 +1,77 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.perfil {
+    width: 150px; /* Ajusta el tamaño según lo necesites */
+    border-radius: 50%; /* Imagen circular */
+}
+
+/* Estilo de Títulos */
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #0056b3; /* Color para los encabezados */
+}
+
+/* Secciones */
+section {
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Listas */
+ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px; /* Espaciado entre ítems */
+    padding: 10px;
+    background: #e9ecef; /* Color de fondo para ítems de lista */
+    border-radius: 5px;
+}
+
+/* Enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 600px) {
+    body {
+        padding: 10px; /* Ajusta el padding en pantallas pequeñas */
+    }
+
+    .perfil {
+        width: 120px; /* Ajusta el tamaño de la imagen en pantallas pequeñas */
+    }
+}
